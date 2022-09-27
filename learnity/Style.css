@@ -1,0 +1,167 @@
+/*    NAVBAR    */
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
+.navbar-nav li {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #754ffe !important;
+}
+.notification {
+color: rgb(0, 0, 0);
+text-decoration: none;
+padding: 15px 26px;
+position: relative;
+display: inline-block;
+}
+
+.notification .badge {
+position: absolute;
+top: 10px;
+right: 10px;
+padding: 5px 6px;
+border-radius: 50%;
+background-color: rgba(255, 0, 0, 0.788);
+color: white;
+}
+.navbar-brand{
+font-family: 'Roboto', sans-serif;
+font-size: 32px;
+font-weight: 900;
+}
+.marketing p{
+text-align: justify;
+}
+.marketing {
+text-align: center;
+}
+.nav-pills a:hover {
+  background-color:  #754ffe33 !important;
+  color: #754ffe !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.nav-pills a{
+margin: 2px;
+font-family: 'Roboto', sans-serif;
+}
+.icon-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    color: #b4aaaa;
+    background: #dddddd;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+  }
+  .icon-button:hover {
+    cursor: pointer;
+  }
+  .icon-button:active {
+    background: #cccccc;
+  }
+  .icon-button__badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 18px;
+    height: 18px;
+    background: red;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .icon-button__badge-online {
+    position: absolute;
+    top: 17px;
+    right: -0px;
+    width: 10px;
+    height: 10px;
+    background: #30CB83;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  /*    !NAVBAR    */
+.card{
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+.course-btn{
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none !important;
+    display: block;
+  }
+.lead{
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+}
+
+/* Glassmorphism HOME page*/  
+#app {
+  background: url(https://products.ls.graphics/paaatterns/images/027-p-1080.png);
+  font-size: 10px;
+  padding: 2rem 5rem 2rem 5rem;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.content {
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.473);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+/* !Glassmorphism HOME page*/ 
+
+
+
+.image_acc{
+  position: absolute;
+  bottom: 47px;
+  left: 25px;
+  color: #ffffff;
+  background-color: #e49f9f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.card{
+  border-radius: 15px 15px;
+}
+.card-header_HEADER{
+  background-image: url("https://products.ls.graphics/paaatterns/images/042-p-1080.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px;
+}
+.card-title_HEADER, .card-text_HEADER{
+  margin-left: 120px;
+}
+.card-text_HEADER{
+  margin-top: -10px;
+}
+.courses img{
+  border-radius: 15px 15px 0px 0px;
+}
+ p{
+  font-family: 'Roboto', sans-serif;
+}
+.checked {
+  color: orange;
+}
+
+
